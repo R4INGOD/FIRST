@@ -40,9 +40,9 @@
 | **New:** Prophet Rev2 parts, remote | n/a | n/a | **$150/song** (test) |
 
 **Projection check:**
-- Plan Year 1 of $160K needs 37% utilization at $100/h, or 49% at $75/h.
-- Plan Year 5 of $450K needs 103% at $100/h, or 137% at $75/h.
-- Realistic: **$80–115K in Year 1** and a **ceiling of about $165K** (50% utilization at $75/h).
+- Plan Year 1 of $160K needs 37% utilization at $100/h, or 43% at $85/h.
+- Plan Year 5 of $450K needs 103% at $100/h, or 121% at $85/h.
+- Realistic: **$95–110K in Year 1** (25–30% utilization) and a **ceiling of about $185K** (50% utilization at $85/h).
 - Anything above that has to come from per-song services (mixing, Prophet parts), not room hours. Those are capped by KJ's time, not the room.
 
 ### Studio B: self-serve membership studio (basement)
@@ -116,11 +116,11 @@ These three carry the plan from $1.95M of room revenue to $4.35M: **$2.4M in Yea
 
 | Room | Plan Y1 | Realistic first full year | Plan Y5 | Ceiling at proposed prices |
 |---|---|---|---|---|
-| Studio A | 160 | 80–115 | 450 | ~165 |
+| Studio A | 160 | 95–110 | 450 | ~185 |
 | Studio B | 160 | 90–120 | 650 | ~131 (219 at 100%) |
 | Studio C | 140 (9 months) | 90–130 | 500 | ~210 |
 | Studio D | 95 (9 months) | 90–120 | 350 | ~360 |
-| **Rooms total** | **555** | **350–485** | **1,950** | **~870** |
+| **Rooms total** | **555** | **365–480** | **1,950** | **~890** |
 
 Break-even is $433K a year, so realistic room revenue roughly covers it. The upside comes from Agency, Video Production and the Academy.
 
