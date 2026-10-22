@@ -32,7 +32,7 @@
 
 | | Current app price | Market (Montreal / comparable) | Proposed |
 |---|---|---|---|
-| Session, engineer included | $100/h, 2 h min | $90 first hour (Porte Parole); $75–85/h with engineer (Toronto); vocal tracking $50–150/h | **$75/h, 2 h min** |
+| Session, engineer included | $100/h, 2 h min | $90 first hour (Porte Parole); $75–85/h with engineer (Toronto); vocal tracking $50–150/h | **$85/h, 2 h min** (revised, see market section) |
 | Mixing | $250/song (sold as "on the SSL") | Vision doc range $300–800 was with the SSL | **$200/song** (in the box) |
 | Mastering | $100/song | $100–300 (vision doc) | **$100** (keep) |
 | Mix + master bundle | $300/song | n/a | **$275** |
@@ -135,6 +135,68 @@ Break-even is $433K a year, so realistic room revenue roughly covers it. The ups
 5. **Which Year 1 number is current:** $900K or $719K.
 
 ---
+
+## Montreal market rates (expanded check, Oct 22, 2026)
+
+These are published rates, before tax. Some pages are undated or old, so confirm before quoting them.
+
+**Recording with an engineer included** (compare with Studio A)
+
+| Studio | Rate |
+|---|---|
+| [Headbangers Studios](https://www.headbangersstudios.com/) | $60–100/h, vocals with engineer |
+| [MakeWay Studios](https://makewaystudios.com/recording-studio-montreal) | $80/h or $120/h, depending on staff |
+| [QDS Recording](https://qdsrecordingstudio.com/copy-of-rates) (West Island) | $90/h, 1 h min |
+| [Great Things / 514GT](https://514gt.com/recording-studio.html) | $95/h recording or mixing; recording + mix + master from $375/song |
+| [JL Recording](https://www.jlstudios.ca/rates.html) | $100/h (2020 rate sheet) |
+| [Studio Musique O Max](https://www.studiomom.ca/tarifs/) | $55/h, engineer not specified |
+| [Les Studios MP](https://www.lesstudiosmp.com/audiovisuel) | $60/h regular, $30/h turnkey |
+
+The going rate is **$80–100/h with an engineer.** Milestone's $100/h is at the top, which made sense with the SSL. Without it, **$85/h** sits mid-market. That's revised up from the $75 proposed above.
+
+**Mixing per song**
+
+| Studio | Rate |
+|---|---|
+| [Mix11](https://mix11.ca/rates) | $375/song, revisions $80/h |
+| [Great Things](https://514gt.com/recording-studio.html) | full song from $375 |
+| [**Milestone on SoundBetter**](https://soundbetter.com/profiles/276470-milestone) | **$150 mix, $250 mix + master** |
+
+The app says $250 for a mix and $300 for the bundle, so **the app and Milestone's SoundBetter profile disagree.** Pick one: $200 for a mix and $275 for the bundle covers both.
+
+**Self-serve / no engineer** (compare with Studio B)
+
+| Studio | Rate |
+|---|---|
+| [Marsonic](https://marsonic.com/en/hourly-studios/) | rehearsal rooms from $20/h; [monthly rooms from $300/month](https://marsonic.com/en) |
+| [Porte Parole](https://porteparole.org/en/the-porte-parole-studio/) | $90 first hour, then $40 per half-hour |
+| [Boîte à Musique](https://boutique.boiteamusique.ca/en/studios), [NOW Studio](https://www.nowstudio.co/) | hourly or monthly, prices not published |
+
+No Montreal studio was found selling a self-serve *recording* membership with a monthly block of hours, so Studio B's model has no direct competitor. Its $45–55/h effective rate is high next to rehearsal rooms, but those don't include recording gear. **Non-member price: $60/h.**
+
+**Content / photo-video studios** (compare with Studio C)
+
+| Studio | Rate |
+|---|---|
+| [Giggster Montreal](https://giggster.com/find/montreal--qc/photo-studio) | cyclorama studios $60–85/h; one at $150/h |
+| [DonCartel](https://doncartel.ca/studio/) | $300 first hour, then $130/h, 3 h min (old page) |
+| [Studio Le Trait d'Union](https://bon24h.com/pages/studio-le-trait-dunion) | $160 for 2 h, $320 for 4 h, technician included |
+
+No content-creator memberships were found, so Studio C's membership is a real differentiator. Its $75/h self-serve is in line with the market, and $150/h with an operator is fine.
+
+**Podcast studios** (compare with Studio D)
+
+| Studio | Rate |
+|---|---|
+| [Virage Sonore](https://viragesonore.com/en/studio-c/) (Plateau) | ~$89/h audio, ~$104/h with video, 5 h package |
+| [Studio Le Trait d'Union](https://bon24h.com/pages/studio-le-trait-dunion) | $80/h, technician and multicam |
+| [Archetype](https://www.archetypemtl.com/podcaststudiomontreal) (Chabanel) | $325 for 90 min, $720 for 4 h; 4× FX30, operator |
+| [Great Things](https://tagvenue.com/ca/venues/montreal/53678/great-things-studios) | from $200/h, 2 h min |
+| [UNIQ Sound Green Studio](https://www.tagvenue.com/ca/rooms/montreal/110079/uniq-sound/green-studio) | from $50/h |
+
+- Producer-run at $165/h sits between Archetype ($180–217/h) and Virage ($104/h). That's fine.
+- **Self-serve at $125/h is above full-service rooms like Virage and Le Trait d'Union. → $75–85/h.**
+- Essential at $450 per 2 h ($225/h) is at the top of the market. Signature at $750 per 2 h needs editing or clips included to justify it.
 
 ## Sources (market rates, checked Oct 22, 2026)
 
