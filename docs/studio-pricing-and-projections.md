@@ -64,7 +64,7 @@ The prices are fine. **Capacity is the problem.**
   - Cap memberships at about 30 so members can actually book.
   - Sell daytime hours to non-members.
   - Extend self-serve hours past 21:00. That's the only way to grow this room meaningfully, if ID checks and safety allow it.
-- **Gear (confirmed Oct 22):** Wagner upright piano, Townsend Labs mic, Rode NT4 pair, Universal Audio Volt 8 Pre, a pair of Dynaudio LYD 48 monitors, mic stands, video lighting and a 50-inch TV. There's no console or outboard. That's a solid self-serve writing and recording room, and $45–55/h is in line with Montreal ($55–60/h at O Max and Les Studios MP). The piano and the video lighting set it apart.
+- **Gear (confirmed Oct 22):** Wagner upright piano, Townsend Labs mic, Rode NT4 pair, Apex 210 ribbon, Shure SM7B, Beta 57 and SM57, Universal Audio Volt 8 Pre, a pair of Dynaudio LYD 48 monitors, mic stands, video lighting and a 50-inch TV. There's no console or outboard. That's a solid self-serve writing and recording room, and $45–55/h is in line with Montreal ($55–60/h at O Max and Les Studios MP). The piano and the video lighting set it apart.
 
 ### Studio C: content creation room (2nd floor)
 
