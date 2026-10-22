@@ -6,6 +6,28 @@
 
 ---
 
+## 0. What the app gives a non-renter today
+
+Audit of `R4INGOD/milestone-app` at `245905f` (rebuild branch `main`):
+
+| Page | What someone who never books actually gets |
+|---|---|
+| **Marketplace** | 3 hard-coded sample listings (`LISTINGS` in `src/lib/content.ts`). Every Apply / Hire / Connect button goes to `/contact`. There's no listings table, so nobody can post or apply. |
+| **Feed** | Hard-coded items with fixed like/comment counts. It's the same on every visit. |
+| **Blog** | 3 posts, title and excerpt only, with no article pages. |
+| **Academy** | "Coming soon" page with a waitlist. |
+| **Network (shows)** | Description cards. Every "Watch" button opens the same YouTube channel. |
+| **Ranks / XP** | Every XP source is on site or tied to Milestone: booking, releasing a track made at Milestone, Le Bench, a marketplace gig that can't happen yet. Nothing in the database awards XP. Rewards are booking discounts and priority booking, which are worthless to a non-renter. |
+| **Jax AI** | The home-screen tile links to `/contact`. The IP/royalties agent isn't in the app. |
+| **Tour** | `MATTERPORT_MODEL_ID` is unset, so the page shows "coming soon". |
+| **Profile** | `profiles` already stores bio, skills and Spotify/YouTube/Instagram/SoundCloud links, but only the owner can see it. There are no public profiles and no directory. |
+
+What really works without booking: **the store** (beats and sample packs with real Stripe checkout) and **events / Le Lad ticketing**. Events still require showing up in person.
+
+**Diagnosis:** the non-renter half of the app is a shell. The pages exist, but the content is static and the actions dead-end at the contact form. A non-renter has no reason to come back because nothing changes and nothing they do counts. That's good news: the navigation, the bilingual copy and the data fields are already there, so the work is wiring up real data, not designing from scratch.
+
+---
+
 ## 1. Who the non-renter actually is
 
 | Segment | What they want | Why they're not booking |
@@ -83,14 +105,16 @@ Price points are deliberately left blank. Test them with real users before commi
 
 ## 5. What to build first
 
-Ranked by (uses what already exists) × (value without the building) × (speed):
+Ranked by (uses what already exists in the code) × (value without the building) × (speed):
 
-1. **Rights & royalties toolkit (free).** The AI agent already exists; wrap it as split-sheet + release-checklist flows. This is the acquisition hook.
-2. **Remote mix/master + post-production storefront.** Turns existing gear and staff into revenue from anywhere, with a simple upload → pay → deliver → revise flow.
-3. **Paid briefs feed seeded with agency overflow.** This is the retention loop: remote creatives come back because there is work.
-4. Onboarding fork ("What are you here to do?")
-5. Academy online plus the feedback queue
-6. Challenges and the collab board
+1. **Public creative profiles** (`/[locale]/u/[handle]`). The `profiles` table already has bio, skills and streaming/social links. Add a `handle` and an `is_public` flag plus a public page, and every sign-up gets a Milestone-branded portfolio link they can put in their bio. It's the cheapest change that makes signing up worth it on day one.
+2. **Real marketplace.** Add a `listings` table plus applications, and replace the `/contact` dead-end with apply/hire flows that link to those profiles. Seed it with agency overflow so there is paid work from week one. This is the retention loop.
+3. **XP you can earn from anywhere, with rewards non-renters want.** Actually award XP (nothing does today). Event check-in already exists in `/staff/checkin`, so award XP there first. Add remote sources: a completed profile, a marketplace gig delivered, a referral, a challenge entry. Add rewards that matter off site, such as a free feedback credit, store discounts, a Le Bench audition and a featured profile.
+4. **Remote mix/master on the SSL.** `STUDIO_A_SERVICES` already prices mixing ($250/song), mastering ($100/song) and the bundle ($300/song). Sell them through the existing Stripe checkout with a stem upload in place of a booking.
+5. **Rights & royalties toolkit (free).** Bring the IP agent into the app and point the Jax AI tile at it instead of `/contact`. This is the biggest acquisition hook, and also the biggest build.
+6. Onboarding fork ("What are you here to do?")
+7. Academy online plus the feedback queue (replacing the waitlist page)
+8. Challenges and the collab board. Make the feed and blog real: feed driven by the database, plus article pages.
 
 All of it ships FR/EN, with French as the default (Bill 96).
 
@@ -109,6 +133,6 @@ All of it ships FR/EN, with French as the default (Bill 96).
 ## 7. Open questions for the team
 
 - Which of the seven departments can take remote work **today** without new hires?
-- What does the app currently ship? (This doc was written from Milestone's pitch materials, not from the `milestone-app` codebase, so check it against what exists.)
+- Were the marketplace, feed and XP live with real data in the original app before the March 2026 wipe? If so, is any of that data recoverable from the old Supabase project?
 - Who owns the brief pipeline from the agency into the app?
 - How far can the IP agent go before it needs a lawyer in the loop?
