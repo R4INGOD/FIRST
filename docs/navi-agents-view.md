@@ -1,5 +1,10 @@
 # Navi (Jalon): Agents view
 
+**Status (Oct 27, 2026):** built on the `agents-view` branch of R4INGOD/jalon. Routes,
+hook, job CLI, installer, board page, README section. Checks and smoke test clean. Left for
+James: merge, set `NAVI_AGENT_TOKEN` and a `/app/data` volume in Coolify, run the installer on
+each machine, and open Cloudflare Access for the two ingest paths (or use a service token).
+
 Goal: one screen in Navi that shows every AI agent in the fleet, what each
 is doing right now, and the sub-agents it spawned, live, in the same
 phosphor-green sonar look as the rest of Jalon.
