@@ -20,7 +20,7 @@ bottom; each step says what to check. Nothing here touches member data.
    Check: open https://milestone.uno/shop in a private window; the box appears after 4 s.
 5. Tell James where the answers show: app admin dashboard, card "D'où viennent les visiteurs · 30 j", and #leads.
 
-## B. Agents board in Jalon (merged: jalon `agents-view` → main)
+## B. Agents board in Jalon (merged: jalon PR #1, sheet A-05; Coolify redeploys by itself)
 
 1. **Coolify**, app Jalon: add env `NAVI_AGENT_TOKEN` = `openssl rand -hex 32` (keep the value for step 3), add a
    persistent volume mounted at `/app/data`, redeploy. Optional: `MATTERMOST_WEBHOOK_URL` (an incoming webhook in
